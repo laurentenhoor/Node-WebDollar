@@ -115,6 +115,7 @@
     "mochawesome": "^2.3.1",
     "sinon": "^7.1.1",
     "timers-browserify": "^2.0.6",
+    "v8-profiler": "^5.7.0",
     "webpack": "^3.11.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-merge": "^4.1.2",

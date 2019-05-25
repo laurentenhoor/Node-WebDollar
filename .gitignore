@@ -5,6 +5,8 @@ dist/
 package-lock.json
 yarn.lock
 
+profiler/
+
 coverage/
 mochawesome-report/
 
