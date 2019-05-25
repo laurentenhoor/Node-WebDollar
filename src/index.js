@@ -26,7 +26,7 @@ let exportObject = Main;
 
 console.warn("Profiler initializing...");
 
-const profiler = require("v8-profiler");
+const profiler = require("v8-profiler-node8");
 const fs = require("fs");
 
 initProfileSection(0);
