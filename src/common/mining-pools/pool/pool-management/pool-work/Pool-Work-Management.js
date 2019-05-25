@@ -157,7 +157,7 @@ class PoolWorkManagement{
                 prevBlock.posMinerAddress = work.pos.posMinerAddress;
                 prevBlock.posMinerPublicKey = work.pos.posMinerPublicKey;
                 prevBlock.timeStamp = work.pos.timestamp;
-                prevBlock.verifyPOSSignature();
+                // prevBlock.verifyPOSSignature();
 
                 if (!work.pos.posMinerAddress.equals( minerInstance.address ))
                     throw {message: "work.pos.posMinerAddress doesn't match", posMinerAddress: work.pos.posMinerAddress, minerInstance: minerInstance.address, }
