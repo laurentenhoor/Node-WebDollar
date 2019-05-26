@@ -29,7 +29,7 @@ console.warn("Profiler initializing...");
 const profiler = require("v8-profiler-node8");
 const fs = require("fs");
 
-initProfileSection(0);
+// initProfileSection(0);
 
 function initProfileSection(i) {
   let durationInMilliSec = 60000;
